@@ -9,7 +9,7 @@ sbatch <<EOF
 #SBATCH --output=container_output.log
 #SBATCH --ntasks=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=standard
+#SBATCH --partition=p0
 #SBATCH --container-image=/home/reinaae80667/images/python_image.sqsh
 #SBATCH --container-name=python-container
 
